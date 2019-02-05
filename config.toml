@@ -1,4 +1,4 @@
-baseURL = "https://rhub-doc.netlify.com/"
+baseURL = "https://rhub-docs.netlify.com/"
 languageCode = "en-us"
 
 title = "Consider Phlebas"
