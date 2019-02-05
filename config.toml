@@ -1,3 +1,23 @@
-baseURL = "http://rhub-docs.netlify.com/
+baseURL = "https://rhub-doc.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+title = "Consider Phlebas"
+theme = "kraiklyn"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+externalTitle = "Kraiklyn theme"
+sidebarColor = "default"
+customCss = []
+
+[[menu.shortcuts]]
+name = "Kraiklyn on Github"
+url = "https://github.com/jsnjack/kraiklyn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "Hugo docs"
+url = "https://gohugo.io/documentation/"
+weight = 20
