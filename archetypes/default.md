@@ -1,6 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+anchor: "{{ replace .TranslationBaseName "-" " " | title | urlize }}"
+weight:
 draft: true
 ---
-
