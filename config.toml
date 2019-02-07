@@ -8,7 +8,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-externalTitle = "R-hub Docs site"
+externalTitle = "R-hub Docs"
 sidebarColor = "default"
 customCss = []
 
