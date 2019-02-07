@@ -1,8 +1,8 @@
 ---
 title: "Submit your package with the webform or the package?"
 date: 2018-01-28T21:55:52+01:00
-anchor: ""
-weight: 13
+anchor: "pkg-vs-web"
+weight: 14
 ---
 
 You can submit a package using either the **webform**'s [simple interface](https://builder.r-hub.io/) or [with advanced options](https://builder.r-hub.io/advanced); or via the [**R package `rhub`**](https://r-hub.github.io/rhub/). We strongly recommend using the package for a smoother workflow and more customization. 
