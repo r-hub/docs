@@ -1,23 +1,23 @@
-baseURL = "https://rhub-docs.netlify.com/"
+baseURL = "https://docs.r-hub.io/"
 languageCode = "en-us"
 
-title = "Consider Phlebas"
+title = "R-hub Docs site"
 theme = "kraiklyn"
 
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-externalTitle = "Kraiklyn theme"
+externalTitle = "R-hub Docs site"
 sidebarColor = "default"
 customCss = []
 
 [[menu.shortcuts]]
-name = "Kraiklyn on Github"
-url = "https://github.com/jsnjack/kraiklyn"
+name = "R-hub"
+url = "https://builder.r-hub.io/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "Hugo docs"
-url = "https://gohugo.io/documentation/"
+name = "Github"
+url = "https://github.com/r-hub"
 weight = 20
