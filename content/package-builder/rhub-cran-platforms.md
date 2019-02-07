@@ -18,6 +18,6 @@ If you run into an issue on CRAN that you want to reproduce we recommend
 
 * If that does not work, 
     * If you guess what causes the issue is e.g. the particular compiler and your package has compiled code, download the compiler and try reproducing the issue locally.
-    * Ask for help (LINK TO WHERE TO GET HELP ABOUT R PKG DEV).
+    * [Ask for help](#pkg-dev-help).
     
 Good luck!
