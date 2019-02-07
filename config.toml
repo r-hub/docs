@@ -1,7 +1,7 @@
 baseURL = "https://docs.r-hub.io/"
 languageCode = "en-us"
 
-title = "R-hub Docs site (WIP!)"
+title = "R-hub Docs site"
 theme = "kraiklyn"
 
 pygmentsCodeFences = true
