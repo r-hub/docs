@@ -22,7 +22,7 @@ weight: 25
 
 * Official [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) guidance.
 
-* [R packages book by Hadley Wickham](http://r-pkgs.had.co.nz/).
+* [R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/).
 
 ##### Further resources
 
