@@ -14,11 +14,21 @@ sidebarColor = "cyan"
 customCss = []
 
 [[menu.shortcuts]]
-name = "R-hub"
+name = "archive"
 url = "https://builder.r-hub.io/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "GitHub"
+name = "github"
 url = "https://github.com/r-hub"
+weight = 20
+
+[[menu.shortcuts]]
+name = "twitter"
+url = "https://twitter.com/rhub_/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "comments"
+url = "https://gitter.im/r-hub/community"
 weight = 20

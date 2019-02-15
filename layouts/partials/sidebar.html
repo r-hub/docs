@@ -9,13 +9,10 @@
         </nav>
 
         <nav class="external">
-            <div class="external-title">{{ .Site.Params.externalTitle }}</div>
             {{ with .Site.Menus.shortcuts }}
             <ul id="shortcuts">
                 {{ range sort . "Weight" }}
-                <li>
-                    <a href="{{.URL}}" target="_blank" rel="noopener">{{safeHTML .Name}}</a>
-                </li>
+                    <a href="{{.URL}}" target="_blank" rel="noopener"><i class="fa fa-{{.Name}} fa-3x"></i></a>
                 {{ end }}
             </ul>
             {{ end }}
