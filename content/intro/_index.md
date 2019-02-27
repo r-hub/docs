@@ -13,6 +13,12 @@ Its most prominent service is the [*package builder*](#package-builder) that all
 
 * A replacement of CRAN
 
+### Overview of R-hub components
+
+{{< figure src="/img/rhub-diagram.svg" alt="Diagram showing R-hub components" >}}
+
+The "coming soon" GitHub part is the future R-hub CI (continuous integration).
+
 ### More details about R-hub services
 
 Other services built around the package builder include:
