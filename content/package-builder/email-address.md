@@ -1,5 +1,5 @@
 ---
-title: "What if I am not the package maintainer?"
+title: "What if you are not the package maintainer?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "email-address"
 weight: 14
