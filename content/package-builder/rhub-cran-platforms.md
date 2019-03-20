@@ -1,5 +1,5 @@
 ---
-title: "How do R-hub and CRAN platforms compare?"
+title: "R-hub vs CRAN platforms"
 date: 2018-01-28T21:55:52+01:00
 anchor: "rhub-cran-platforms"
 weight: 15

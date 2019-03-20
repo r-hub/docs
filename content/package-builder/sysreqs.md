@@ -1,5 +1,5 @@
 ---
-title: "How to inform R-hub of system requirements for my package?"
+title: "System requirements"
 date: 2018-01-28T21:55:52+01:00
 anchor: "sysreqs"
 weight: 18

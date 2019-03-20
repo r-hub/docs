@@ -1,5 +1,5 @@
 ---
-title: "How to reproduce a bug uncovered by R-hub?"
+title: "Reproduce a bug uncovered by R-hub?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "local-debugging"
 weight: 24
