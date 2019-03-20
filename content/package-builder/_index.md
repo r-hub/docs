@@ -5,4 +5,7 @@ anchor: "package-builder"
 weight: 10
 ---
 
-R-hub package builder
+R-hub package builder: Run `R CMD check` on many different platforms, for free!
+
+The best way to interact with R-hub package builder is from your R session, 
+via the [`rhub` package](https://r-hub.github.io/rhub/) that has [its own documentation website](https://r-hub.github.io/rhub/).
