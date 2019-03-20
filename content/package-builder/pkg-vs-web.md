@@ -1,5 +1,5 @@
 ---
-title: "Submit your package with the webform or the package?"
+title: "R-hub webform or rhub package?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "pkg-vs-web"
 weight: 12

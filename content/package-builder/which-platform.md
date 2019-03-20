@@ -1,5 +1,5 @@
 ---
-title: "What platform to use?"
+title: "What R-hub platform(s)?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "which-platform"
 weight: 14
