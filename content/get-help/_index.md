@@ -1,12 +1,11 @@
 ---
 title: "Where to get help?"
-date: 2018-01-28T21:55:52+01:00
+date: 2018-01-28T22:01:36+01:00
 anchor: "pkg-dev-help"
-weight: 25
-
+weight: 900
 ---
 
-### About R-hub in particular
+## About R-hub in particular
 
 * [R-hub community on gitter](https://gitter.im/r-hub/community).
 
@@ -14,9 +13,9 @@ weight: 25
 
 * If you need to communicate sensitive information, contact admin@r-hub.io Otherwise please use the two public spaces mentioned above.
 
-### About R package development in general
+## About R package development in general
 
-#### Learning resources
+### Learning resources
 
 ##### Books
 
@@ -24,7 +23,7 @@ weight: 25
 
 * [R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/).
 
-##### Further resources
+#### Further resources
 
 Refer to lists of resources in
 
@@ -33,7 +32,7 @@ Refer to lists of resources in
 
 Read CRAN submission tips on [ThinkR's collaborative `prepare-for-cran` repo](https://github.com/ThinkR-open/prepare-for-cran).
 
-#### Places to ask questions
+### Places to ask questions
 
 There are several relevant places to ask questions related to R package development. Do not cross post your question simultaneously in several places, but obviously you can re-post your question elsewhere if you have not got any answer after a while.
 

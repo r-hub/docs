@@ -2,7 +2,7 @@
 title: "Local debugging with Docker"
 date: 2018-01-28T22:01:36+01:00
 anchor: "docker-images"
-weight: 9000
+weight: 800
 ---
 
 [R-hub Linux images](https://github.com/r-hub/rhub-linux-builders#rhub-linux-builders) are available [on Docker hub](https://hub.docker.com/u/rhub), and [their source is open, on GitHub](https://github.com/r-hub/rhub-linux-builders). 

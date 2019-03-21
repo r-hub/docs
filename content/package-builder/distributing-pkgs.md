@@ -10,14 +10,14 @@ Imagine you want to share your package with colleague working on a different ope
 
 ### Once in a while
 
-If you're only doing this sporadically, you can use R-hub builder to build your package on the platform corresponding to your colleague's computer. In the email you'll receive after a (hopefully successful) build, there's a link to _artefacts_ i.e. the built package that you can download and send to your colleague; and `rhub` itself [should soon get a method for retrieving artefacts](https://github.com/r-hub/rhub/issues/197). 
-Be careful, artefacts only remain online for a few days so download them as soon as you can.
+If you're only doing this sporadically, you can use R-hub builder to build your package on the platform corresponding to your colleague's computer. In the email you'll receive after a (hopefully successful) build, there's a link to _artifacts_ i.e. the built package that you can download and send to your colleague; and in `rhub`, the output check functions has [an `urls()` method returning the build and artifacts URLs ](https://r-hub.github.io/rhub/reference/rhub_check.html#details). 
+Be careful, artifacts only remain online for a few days so download them as soon as you can.
 
 ### Regularly
 
 If you want to regularly build and deploy your package on different platforms, what you are looking for is _continuous integration_.
 
-* R-hub CI. Not at the moment, but eventually R-hub will offer a CI service, unsurprisingly specific to R packages.
+* R-hub CI. Not at the moment.
 
 * Appveyor (Windows). Each build has a [tab with artefacts](https://ci.appveyor.com/project/jeroen/gifski/build/job/g3ryly3s833lomlk/artifacts), and you could automate the workflow with scripts. Refer to [Appveyor docs](https://www.appveyor.com/docs/).
 
