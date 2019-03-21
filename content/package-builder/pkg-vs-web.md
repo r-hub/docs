@@ -13,4 +13,4 @@ In more details, why rather use `rhub`?
 
 - When using the web interface you can set neither extra arguments for the `R CMD check` command nor environment variables to set on the builder machine, which you might actually need for finer control of the check, or e.g. to provide your secret web API key.
 
-- While you _can_ select several platforms to build your package on via the web interface, you need to choose those by hand, whereas the package has handy shortcuts (even handier when using an editor with autocompletion like RStudio) such as `rhub::check_on_windows()` and the very useful `rhub::check_on_cran()`.
+- While you _can_ select several platforms to build your package on via the web interface, you need to choose those by hand, whereas the package has handy shortcuts (even handier when using an editor with autocompletion like RStudio) such as `rhub::check_on_windows()` and the very useful `rhub::check_for_cran()`.

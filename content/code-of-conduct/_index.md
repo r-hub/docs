@@ -2,7 +2,7 @@
 title: "Code of Conduct"
 date: 2018-01-28T22:01:36+01:00
 anchor: "code-of-conduct"
-weight: 1000
+weight: 10000
 ---
 
 As contributors and maintainers of this project, we pledge to respect all people who 
