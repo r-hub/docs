@@ -2,7 +2,7 @@
 title: "What R-hub platform(s)?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "which-platform"
-weight: 14
+weight: 13
 ---
 
 With R-hub you can build and check your package on 20 platforms (different operating systems/architectures, different R versions). It is very easy to [check all boxes in the webform](https://builder.r-hub.io/advanced) or to use `rhub::platforms()[,1]` as value for the `platform` argument of `rhub::check()`, but probably useless, a waste of R-hub resources and a waste of time for you (20 emails with very similar results!). Just because you can doesn't mean you should! Here are a few tips to help you choose not too many platforms.
