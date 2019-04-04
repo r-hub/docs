@@ -5,4 +5,4 @@ anchor: "package-builder"
 weight: 10
 ---
 
-R-hub package builder: Run `R CMD check` on many different platforms, for free!
+R-hub package builder: Run `R CMD check` on many different platforms (operating systems, R versions...), for free!
