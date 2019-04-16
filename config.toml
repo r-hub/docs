@@ -32,3 +32,9 @@ weight = 20
 name = "comments"
 url = "https://gitter.im/r-hub/community"
 weight = 20
+
+
+[[menu.shortcuts]]
+name = "vimeo"
+url = "https://vimeo.com/rhub"
+weight = 20

@@ -5,6 +5,8 @@ anchor: "further-r-hub-resources"
 weight: 950
 ---
 
+* [R-hub Vimeo channel, for screencasts](https://vimeo.com/rhub)
+
 * [Video recording of the RStudio webinar "R-Hub Overview"](https://resources.rstudio.com/webinars/r-hub-overview-ga-bor-csa-rdi). [Slides source](https://github.com/r-hub/presentations/tree/master/2018-05-09-webinar).
 
 * [Original R-hub proposal, as submitted to the R Consortium in 2015](https://github.com/r-hub/proposal).
