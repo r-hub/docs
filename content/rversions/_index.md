@@ -11,4 +11,4 @@ R-hub maintains the [`rversions` CRAN package](https://cran.r-project.org/packag
 
 * and also all previous R versions, their release dates and nicknames. 
 
-For more information, refer to the [package docs](https://r-hub.github.io/rversions) and [GitHub repository](https://github.com/r-hub/rversions). 
+It can be useful to e.g. automatically assess whether the currently installed R version corresponds to r-release. For more information, refer to the [package docs](https://r-hub.github.io/rversions) and [GitHub repository](https://github.com/r-hub/rversions). 
