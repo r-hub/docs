@@ -7,7 +7,7 @@ weight: 500
 
 R-hub unofficially mirrors CRAN packages to the [`cran` GitHub organization](https://github.com/cran/). Each CRAN package lives in its own GitHub repository, e.g. package Rcpp is at https://github.com/cran/Rcpp. All versions of all packages are included, and each version is a separate git commit, tagged with the version number. We tried to keep the original dates and authors/maintainers as well.
 
-The main goal of CRAN @ GitHub is the *easy access to the source code or CRAN packages*. In particular, you can
+The main goal of CRAN @ GitHub is the **easy access to the source code or CRAN packages**. In particular, you can
 
 * See differences between package versions, e.g. [what changed between 1.2.0 and 1.2.1](https://github.com/cran/crayon/commit/72b56a09cd4cbc787eb90a31d88f736d280af8b5) in crayon.
 
