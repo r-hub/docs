@@ -15,4 +15,4 @@ The main goal of CRAN @ GitHub is the **easy access to the source code or CRAN p
 
 * Use [GitHub search functionality](https://help.github.com/en/articles/about-searching-on-github).
 
-To find out how things work under the hood, [refer to `cranatgh` GitHub repository](https://github.com/metacran/cranatgh/).
+To find out how things work under the hood, [refer to `cranatgh` GitHub repository](https://github.com/metacran/cranatgh/). R-hub mirror of CRAN packages is one of the sources used by [Jim Hester's `lookup` package](https://github.com/jimhester/lookup), that helps you lookup R full function definitions, including compiled code, S3 and S4 methods. 
