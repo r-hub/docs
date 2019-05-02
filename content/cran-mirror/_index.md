@@ -1,5 +1,5 @@
 ---
-title: "Mirror of CRAN packages"
+title: "CRAN source code mirror"
 date: 2018-01-28T22:01:36+01:00
 anchor: "cranatgh"
 weight: 500
