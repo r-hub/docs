@@ -11,7 +11,7 @@ pygmentsStyle = "monokailight"
 externalTitle = "R-hub Docs"
 description = "Documentation website for the R-hub project of the R Consortium, easing the R package development process."
 sidebarColor = "cyan"
-customCss = []
+customCss = ["custom.css"]
 
 [[menu.shortcuts]]
 name = "fa fa-archive"

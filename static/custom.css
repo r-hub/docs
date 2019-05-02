@@ -1,0 +1,103 @@
+/*----------------------------------------------------------------------------------------------------------------*/
+/*---custom override CSS by Oz Locke, Locke Data Ltd. Please contact oz@itsalocke.com if there are any problems---*/
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*---------------*/
+/* -- SIDEBAR -- */
+/*---------------*/
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.sidebar {
+    background-color: #F3F3F3 !important;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eeeeee;
+    color: #5c5c5c;
+    font-weight: 300;
+}
+
+.sidebar li {
+    margin-bottom: 3%;
+}
+
+.sidebar a {
+    color: #2854A0 !important;
+}
+
+.sidebar a:hover, .sidebar a:active, .sidebar a:focus {
+    color: #B0383C !important;
+}
+
+.current-link {
+    color:black;
+}
+
+/* social links */
+.fa {
+    margin-right: 2%;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+/*-----------------*/
+/* -- SCROLLBAR -- */
+/*-----------------*/
+
+/* 
+Code via: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar 
+Note: The -webkit-scrollbar is not supported by Firefox or IE and Edge.
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2854A0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B0383C; 
+  }
+
+/*---------------*/
+/* -- CONTENT -- */
+/*---------------*/
+
+.content {
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+.content h1 {
+    border-left-color: #2854A0 !important;
+    border-left-width: 2px !important;
+}
+
+.content a {
+    color: #2854A0 !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.content a:hover, .content a:active, .content a:focus {
+    color: #B0383C !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+section.page {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #eeeeee;
+}
