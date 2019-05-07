@@ -30,7 +30,7 @@
      inkscape:cx="1657.1429"
      inkscape:cy="1017.1429"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2560"
@@ -57,8 +57,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,297)"
-     sodipodi:insensitive="true">
+     transform="translate(0,297)">
     <rect
        style="opacity:1;vector-effect:none;fill:#f3f2f3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.35906315;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect3333"
