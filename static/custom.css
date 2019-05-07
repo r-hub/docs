@@ -125,40 +125,47 @@ section .fas:hover, section .fab:hover {
 }
 
 footer {
-    background-color: #2854A0;
-    color: #fff;
-    text-align: center;
+    background-color: #f3f2f3;
+    color: #2854A0;
+    text-align: left;
     padding: 40px 0;
     display:flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
 }
 
-footer p {
-    font-size: 1.5rem;
+/* -- Flex settings -- */
+footer div.links-master-container {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
 }
 
-footer ul {
+footer div.links-container {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer div.links-rhs-container {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+footer div.terms-container {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+footer p.terms-container {
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-left: 0;
 }
-
-footer ul li a {
-    margin: 0 8px;
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
-}
-
-footer ul.social li a {
-    font-size: 2.5rem;
-}
-
-footer ul li a:hover {
-    color: #a5a5a5;
-}
+/* ----------------- */
 
 @media(max-width: 800px) {
     footer {
