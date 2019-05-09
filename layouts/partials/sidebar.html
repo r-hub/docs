@@ -1,7 +1,9 @@
 <div class="sidebar sidebar-{{ .Site.Params.sidebarColor}}">
     <div class="navigation">
-        {{ partial "logo.html" }}
-        
+        <div>    
+            {{ partial "logo.html" }}
+            <h1><a href="{{ .Site.BaseURL }}"> Documentation</a></h1>
+        </div>
 
 
         <nav class="internal">
