@@ -122,10 +122,6 @@ section .fas:hover, section .fab:hover {
 /* --FOOTER-- */
 /*------------*/
 
-.oswald {
-    font-family: 'Oswald', sans-serif;
-}
-
 footer {
     background-color: #f3f2f3;
     margin: 0;
@@ -174,7 +170,9 @@ footer .links-container, #legal-container {
 }
 
 #legal-container {
+    margin-left: 20px;
     max-width: 20%;
+    color: #4b4b4b;
 }
 
 #legal-container img {
@@ -266,6 +264,7 @@ p.links-container {
 
     #legal-container {
         margin-bottom: 20px;
+        color: #4b4b4b;
     }
 }
 
