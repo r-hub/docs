@@ -43,6 +43,20 @@ body {
     font-size: 2rem;
 }
 
+.sidebar .navigation {
+    flex: initial;
+}
+
+.sidebar .legal-container {
+    font-size: 0.75em;
+    margin: 10px 0 10px 0;
+}
+
+.sidebar .legal-container p {
+    margin: 1px 0 1px 0;
+}
+
+
 /*-----------------*/
 /* -- SCROLLBAR -- */
 /*-----------------*/
@@ -160,7 +174,7 @@ footer a:hover, a:active {
     align-content: space-around;
 }
 
-footer .links-container, #legal-container {
+footer .links-container, .legal-container {
     /* background-color: red; */
     display: flex;
     flex-flow: column nowrap;
@@ -169,13 +183,13 @@ footer .links-container, #legal-container {
     margin-bottom: 60px;
 }
 
-#legal-container {
+footer .legal-container {
     margin-left: 20px;
     max-width: 20%;
     color: #4b4b4b;
 }
 
-#legal-container img {
+.legal-container img {
     vertical-align: middle;
 }
 
@@ -234,7 +248,7 @@ p.links-container {
         padding: 50px 50px;
     }
 
-    #links-master-container, #links-rhs-container,  #legal-container, footer .links-container {
+    #links-master-container, #links-rhs-container,  footer .legal-container, footer .links-container {
         display:flex;
         flex-flow: column nowrap;
         justify-content: space-evenly;
@@ -262,7 +276,7 @@ p.links-container {
         width: 100%;
     }
 
-    #legal-container {
+    footer .legal-container {
         margin-bottom: 20px;
         color: #4b4b4b;
     }
