@@ -6,6 +6,6 @@ anchor: "credentials"
 weight: 17
 ---
 
-You can send your secret API key, token, etc. to R-hub package builder when using the [`rhub` package](https://r-hub.github.io/rhub/reference/index.html), via the `check_args` argument of check functions.
+You can send your secret API key, token, etc. to R-hub package builder when using the [`rhub` package](https://r-hub.github.io/rhub/reference/index.html), via the `env_vars` argument of check functions.
 
 You cannot do that with the web interface. See [more reasons to use the package rather than the web interface](#pkg-vs-web).
