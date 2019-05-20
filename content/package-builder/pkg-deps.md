@@ -12,6 +12,6 @@ and possibly other sources, using the [`remotes` package](https://remotes.r-lib.
 If your package depends on a package that is on CRAN that was only very recently released and that does not have a binary build yet, R-hub will try to build it. If it requires compilation,
 then R-hub might not be able to build it. Should this happen, [please get in touch](#pkg-dev-help).
 
-R-hub supports packages from other sources than CRAN, this is useful for
+R-hub supports packages from other sources than CRAN (e.g. a package in development in a GitHub repository), this is useful for
 testing your package with non-CRAN dependencies. Refer to [this `remotes` vignette](https://remotes.r-lib.org/articles/dependencies.html) for
 details.
