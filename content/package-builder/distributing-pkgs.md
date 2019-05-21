@@ -2,7 +2,7 @@
 title: "How to build R packages for distributing them?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "distributing-pkgs"
-weight: 18
+weight: 17
 
 ---
 
