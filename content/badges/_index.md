@@ -42,4 +42,8 @@ Shows number of downloads for a given package, see [`cranlogs.app` README](https
 ![](https://cranlogs.r-pkg.org/badges/last-month/Rcpp)
 ![](https://cranlogs.r-pkg.org/badges/last-week/Rcpp)
 ![](https://cranlogs.r-pkg.org/badges/last-day/Rcpp)
+
+### Related services
+
+Also check out badges from rOpenSci Scott Chamberlain for CRAN checks results <https://github.com/ropenscilabs/cchecksapi#badges>.
 	
