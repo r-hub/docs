@@ -1,5 +1,6 @@
 baseURL = "https://docs.r-hub.io/"
 languageCode = "en-us"
+googleAnalytics = "UA-141769052-1"
 
 title = "R-hub Docs"
 theme = "kraiklyn"
@@ -42,3 +43,25 @@ weight = 20
 name = "fa fa-vimeo"
 url = "https://vimeo.com/rhub"
 weight = 20
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
