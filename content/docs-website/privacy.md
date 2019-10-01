@@ -23,4 +23,6 @@ This means
 
 * The use of Cookies is disabled, instead Session Storage to Store the GA Client ID is used.
 
+This website is deployed via [Netlify](https://www.netlify.com/gdpr/).
+
 For more information, contact <admin@rhub.io>.
