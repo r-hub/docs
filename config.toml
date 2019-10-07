@@ -1,5 +1,5 @@
-# baseURL = "https://docs.r-hub.io/"
-baseURL = "https://relaxed-goldwasser-67adca.netlify.com/"
+baseURL = "https://docs.r-hub.io/"
+# baseURL = "https://relaxed-goldwasser-67adca.netlify.com/"
 languageCode = "en-us"
 
 title = "R-hub Docs"
