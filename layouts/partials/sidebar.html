@@ -14,7 +14,7 @@
             {{ with .Site.Menus.shortcuts }}
             <ul id="shortcuts">
                 {{ range sort . "Weight" }}
-                    <a href="{{.URL}}" target="_blank" rel="noopener"><i class="{{.Name}} fa-3x"></i></a>
+                    <a href="{{.URL}}"><i class="{{.Name}} fa-3x"></i></a>
                 {{ end }}
             </ul>
             {{ end }}
