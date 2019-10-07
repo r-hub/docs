@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-    background-color: #F3F3F3 !important;
+    background-color: #F3F3F3 ;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #eeeeee;
@@ -20,20 +20,24 @@ body {
     font-weight: 300;
 }
 
+.sidebar.sidebar-grey {
+  background-color: #F3F3F3;
+}
+
 .sidebar li {
     margin-bottom: 3%;
 }
 
 .sidebar a {
-    color: #2854A0 !important;
+    color: #2854A0 ;
 }
 
-.sidebar a:hover, .sidebar a:active, .sidebar a:focus {
-    color: #B0383C !important;
+.sidebar a:visited {
+  color: #2854A0 ;
 }
 
-.current-link {
-    color:black;
+.sidebar a:hover, .sidebar a:focus, .sidebar a:active {
+    color: #B0383C ;
 }
 
 /* social links */
@@ -71,7 +75,7 @@ body {
     }
 
     nav.internal ul li ul li a {
-        font-size: 0.75em !important;
+        font-size: 0.75em ;
     }
 }
 
@@ -114,18 +118,18 @@ Note: The -webkit-scrollbar is not supported by Firefox or IE and Edge.
 }
 
 .content h1 {
-    border-left-color: #2854A0 !important;
-    border-left-width: 2px !important;
+    border-left-color: #2854A0 ;
+    border-left-width: 2px ;
 }
 
 .content a {
-    color: #2854A0 !important;
+    color: #2854A0 ;
     text-decoration: none;
     font-weight: 400;
 }
 
 .content a:hover, .content a:active, .content a:focus {
-    color: #B0383C !important;
+    color: #b0383c;
     text-decoration: none;
     font-weight: 400;
 }
@@ -134,6 +138,15 @@ section.page {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #eeeeee;
+}
+
+section.page h1 a, section.page h1 a:visited  {
+  color: #2854A0 ;
+}
+
+section.page h1 a:active {
+  text-decoration: none;
+  color: #b0383c;
 }
 
 section .fas, section .fab {
