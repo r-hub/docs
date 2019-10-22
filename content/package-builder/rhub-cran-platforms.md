@@ -18,6 +18,7 @@ If you run into an issue on CRAN that you want to reproduce we recommend
 
 * If that does not work, 
     * If you guess what causes the issue is e.g. the particular compiler and your package has compiled code, download the compiler and try reproducing the issue locally.
+    * [Refer to this detailed advice for compiled code, by R Core member Tomas Kalibera](https://stat.ethz.ch/pipermail/r-package-devel/2019q3/004421.html).
     * [Ask for help](#pkg-dev-help).
     
 Good luck!
