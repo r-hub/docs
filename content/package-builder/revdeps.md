@@ -8,4 +8,4 @@ weight: 24
 
 R-hub is not meant for checking reverse dependencies.
 
-For _local_ reverse dependencies checks refer to [`usethis::use_revdep()`](https://usethis.r-lib.org/reference/use_revdep.html), the in-progress [`revdepcheck` package](https://github.com/r-lib/revdepcheck); references like [the R packages book](https://r-pkgs.org/release.html), or [this blog post](www.markvanderloo.eu/yaRb/2019/04/26/checking-reverse-dependencies-the-tiny-way/).
+For _local_ reverse dependencies checks refer to [`usethis::use_revdep()`](https://usethis.r-lib.org/reference/use_revdep.html), the in-progress [`revdepcheck` package](https://github.com/r-lib/revdepcheck); references like [the R packages book](https://r-pkgs.org/release.html), or [this blog post](http://www.markvanderloo.eu/yaRb/2019/04/26/checking-reverse-dependencies-the-tiny-way/).
