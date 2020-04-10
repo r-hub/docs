@@ -1,8 +1,5 @@
 name: URL checks
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron:  '0 12 1 * *'
 
