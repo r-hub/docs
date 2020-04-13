@@ -1,5 +1,8 @@
 name: URL checks
 on:
+  push:
+    branches:
+      - gha
   schedule:
     - cron:  '0 12 1 * *'
 
@@ -10,10 +13,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: URLs-checker
-      uses: urlstechie/urlchecker-action@0.1.8
+      uses: urlstechie/urlchecker-action@0.1.9
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        key:  
+        save: urls.csv
         # Choose whether to include file with no URLs in the prints.
         print_all: False# A comma separated list of file patterns (direct paths work as well) to exclude
+    - name: Archive URL checking results
+      uses: actions/upload-artifact@v1
+      with:
+        name: urls
+        path: urls.csv
