@@ -23,6 +23,10 @@ jobs:
         file_types: .md
         save: output/urls.csv
     
+    - name: Dir
+      if: always()
+      run: cd /
+    
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
