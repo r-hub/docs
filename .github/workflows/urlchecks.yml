@@ -18,6 +18,8 @@ jobs:
         pwd
         mkdir -p output
     
+    - run: echo hello > output/world.txt
+    
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
       with:
@@ -30,5 +32,5 @@ jobs:
       uses: actions/upload-artifact@v2-preview
       with:
         name: urls
-        path: output/urls.csv
+        path: /output/urls.csv
 
