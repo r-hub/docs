@@ -11,26 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      
-    - name: Create dir
-      run: |
-        pwd
-        mkdir -p output
-    
-    - run: echo hello > output/world.txt
+    - uses: actions/checkout@v2          
     
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: output/urls.csv
+        save: urls.csv
     
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v2-preview
       with:
-        name: urls
-        path: /output/urls.csv
+        name: urlchecker-results
+        path: urls.csv
 
