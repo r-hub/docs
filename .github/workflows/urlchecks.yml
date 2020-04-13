@@ -28,5 +28,5 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: output
+        path: ./github/workspace/output
 
