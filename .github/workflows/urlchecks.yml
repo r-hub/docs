@@ -25,4 +25,5 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: urls.csv
+        path: /github/workspace/urls.csv
+
