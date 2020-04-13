@@ -23,11 +23,12 @@ jobs:
         file_types: .md
         save: /home/runner/work/docs/docs/output/urls.csv
     
-    - name: Show current directory
+    - name: Change current directory
       if: always()
       run: |
-        ls /github/workspace/output
-        ls github/workspace/output
+        cd ~
+        pwd
+        ls
     
     - name: Archive URL checking results
       if: always()
