@@ -18,17 +18,11 @@ jobs:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
         save: urls.csv
-        # Choose whether to include file with no URLs in the prints.
-        print_all: False# A comma separated list of file patterns (direct paths work as well) to exclude
-    - name: see
-      if: always()
-      run: |
-        ls -R
-      
+    
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: /github/workspace/urls.csv
+        path: /urls.csv
 
