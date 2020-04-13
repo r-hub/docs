@@ -20,6 +20,8 @@ jobs:
         save: urls.csv
         # Choose whether to include file with no URLs in the prints.
         print_all: False# A comma separated list of file patterns (direct paths work as well) to exclude
+    - run: |
+        ls -R
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
