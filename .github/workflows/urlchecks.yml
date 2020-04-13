@@ -21,6 +21,7 @@ jobs:
         save: "urls.csv"
         
     - name: Debug Step 
+      if: always()
       run: | 
         echo "Present working directory is ${PWD}" 
         ls 
