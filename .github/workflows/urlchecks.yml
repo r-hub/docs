@@ -12,17 +12,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: Create dir
+      run: mkdir -p output
+    
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: urls.csv
+        save: output/urls.csv
     
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: /urls.csv
+        path: output
 
