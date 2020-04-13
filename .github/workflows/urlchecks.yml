@@ -27,6 +27,7 @@ jobs:
         save: output/urls.csv
     
     - name: Show current directory
+      if: always()
       run: pwd
     
     - name: Archive URL checking results
