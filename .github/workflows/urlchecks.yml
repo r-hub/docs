@@ -26,9 +26,10 @@ jobs:
     - name: Change current directory
       if: always()
       run: |
-        cd ~
         pwd
-        ls
+        cd /
+        pwd
+        ls -R
     
     - name: Archive URL checking results
       if: always()
