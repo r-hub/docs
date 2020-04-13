@@ -18,7 +18,7 @@ jobs:
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: urls.csv
+        save: "urls.csv"
     
     - name: Archive URL checking results
       if: always()
