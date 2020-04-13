@@ -16,12 +16,18 @@ jobs:
     - name: Create dir
       run: mkdir -p output
     
+    - name: Show current directory
+      run: pwd
+    
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
         save: output/urls.csv
+    
+    - name: Show current directory
+      run: pwd
     
     - name: Archive URL checking results
       if: always()
