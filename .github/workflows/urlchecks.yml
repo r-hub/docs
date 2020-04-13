@@ -24,7 +24,7 @@ jobs:
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: output/urls.csv
+        save: /home/runner/work/docs/docs/output/urls.csv
     
     - name: Show current directory
       if: always()
