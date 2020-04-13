@@ -19,6 +19,7 @@ jobs:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
         save: "urls.csv"
+        cleanup: false
         
     - name: Debug Step 
       if: always()
