@@ -11,13 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Show current directory
-      run: pwd
     - uses: actions/checkout@v2
       
     - name: Create dir
       run: mkdir -p output
-    
     
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
@@ -28,12 +25,14 @@ jobs:
     
     - name: Show current directory
       if: always()
-      run: pwd
+      run: |
+        ls /github/workspace/output
+        ls github/workspace/output
     
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: output
+        path: github/workspace/output
 
