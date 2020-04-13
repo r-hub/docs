@@ -14,7 +14,9 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Create dir
-      run: mkdir -p output
+      run: |
+        pwd
+        mkdir -p output
     
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
