@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Show current directory
+      run: pwd
     - uses: actions/checkout@v2
       
     - name: Create dir
       run: mkdir -p output
     
-    - name: Show current directory
-      run: pwd
     
     - name: URLs-checker
       uses: urlstechie/urlchecker-action@0.1.9
