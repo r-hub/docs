@@ -21,20 +21,12 @@ jobs:
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: /home/runner/work/docs/docs/output/urls.csv
-    
-    - name: Change current directory
-      if: always()
-      run: |
-        pwd
-        cd /
-        pwd
-        ls
+        save: /output/urls.csv
     
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: /home/runner/work/docs/docs/output
+        path: /output
 
