@@ -19,6 +19,12 @@ jobs:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
         save: "urls.csv"
+        
+    - name: Debug Step 
+      run: | 
+        echo "Present working directory is ${PWD}" 
+        ls 
+        cat urls.csv
     
     - name: Archive URL checking results
       if: always()
