@@ -21,12 +21,12 @@ jobs:
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        save: /output/urls.csv
+        save: output/urls.csv
     
     - name: Archive URL checking results
       if: always()
       uses: actions/upload-artifact@v1
       with:
         name: urls
-        path: /output
+        path: output
 
