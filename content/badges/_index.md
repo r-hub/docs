@@ -5,7 +5,7 @@ anchor: "badges"
 weight: 700
 ---
 
-R-hub provides several types of badges for the README of your CRAN package.
+R-hub provides several types of badges for the README of your CRAN R package.
 
 ### CRAN versions
 
