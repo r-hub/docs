@@ -1,0 +1,16 @@
+name: PR URL checks
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2          
+    
+    - name: list files
+      run: |
+        git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
