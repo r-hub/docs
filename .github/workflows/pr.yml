@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:    
-    
+    - uses: actions/checkout@v2 
     - name: list files
       run: |
         PR=$(jq --raw-output .pull_request.head.ref "${GITHUB_EVENT_PATH}")
