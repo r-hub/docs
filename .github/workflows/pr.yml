@@ -13,4 +13,22 @@ jobs:
     
     - name: list files
       run: |
-        git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
+        PR=$(jq --raw-output .pull_request.head.ref "${GITHUB_EVENT_PATH}")
+        files=$(git diff --name-only origin/$PR `git merge-base origin/$PR origin/master` | sed 's/^\|$/"/g'|paste -sd, -)
+        echo "::set-env name=files::$files"
+
+        
+    - name: URLs-checker
+      uses: urlstechie/urlchecker-action@0.2.0
+      with:
+        # A comma-separated list of file types to cover in the URL checks
+        file_types: .md
+        save: "urls.csv"
+        files: env.files
+    
+    - name: Archive URL checking results
+      if: always()
+      uses: actions/upload-artifact@v2-preview
+      with:
+        name: urlchecker-results
+        path: urls.csv
