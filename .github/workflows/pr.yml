@@ -25,7 +25,7 @@ jobs:
       uses: urlstechie/urlchecker-action@0.2.0
       with:
         save: "urls.csv"
-        files: ${{ env.files }}
+        include_files: ${{ env.files }}
         
     - name: Archive URL checking results
       if: failure()
