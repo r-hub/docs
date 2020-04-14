@@ -1,11 +1,13 @@
-name: PR URL checks
-on:
-  pull_request:
-    branches:
-      - master
+on: 
+  issue_comment: 
+    types: [created]
+    
+name: Commands
 
-jobs:
-  build:
+jobs:  
+  urlchecks:
+    if: startsWith(github.event.comment.body, '/check-urls')
+    name: check-urls
     runs-on: ubuntu-latest
 
     steps:    
