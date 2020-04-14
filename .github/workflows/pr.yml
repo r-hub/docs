@@ -14,8 +14,9 @@ jobs:
     - name: list files
       run: |
         PR=$(jq --raw-output .pull_request.head.ref "${GITHUB_EVENT_PATH}")
-        files=$(git diff --name-only origin/$PR `git merge-base origin/$PR origin/master` | sed 's/^\|$/"/g'|paste -sd, -)
+        files=$(git diff --name-only $PR `git merge-base $PR master` | sed 's/^\|$/"/g'|paste -sd, -)
         echo "::set-env name=files::$files"
+        $files
 
         
     - name: URLs-checker
