@@ -26,6 +26,7 @@ jobs:
       with:
         save: "urls.csv"
         include_files: ${{ env.files }}
+        print_all: true
         
     - name: Archive URL checking results
       if: failure()
