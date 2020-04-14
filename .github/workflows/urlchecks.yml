@@ -8,12 +8,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2          
+    
     - name: URLs-checker
-      uses: urlstechie/urlchecker-action@0.1.8
+      uses: urlstechie/urlchecker-action@0.2.0
       with:
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
-        key:  
-        # Choose whether to include file with no URLs in the prints.
-        print_all: False# A comma separated list of file patterns (direct paths work as well) to exclude
+        save: "urls.csv"
+    
+    - name: Archive URL checking results
+      if: always()
+      uses: actions/upload-artifact@v2-preview
+      with:
+        name: urlchecker-results
+        path: urls.csv
+
