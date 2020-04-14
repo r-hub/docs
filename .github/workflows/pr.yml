@@ -1,12 +1,12 @@
 on: 
-  issue_comment: 
-    types: [created]
+  pull_request: 
+    types: [labeled]
     
 name: Commands
 
 jobs:  
   urlchecks:
-    if: startsWith(github.event.comment.body, '/check-urls')
+    if: contains(github.event.pull_request.labels.*.name, 'needs-url-checks')
     name: check-urls
     runs-on: ubuntu-latest
 
