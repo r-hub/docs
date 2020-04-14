@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:    
+    - uses: actions/checkout@v2
+      
     - name: list files
       run: |
           PR=$(jq --raw-output .pull_request.number "${GITHUB_EVENT_PATH}")
@@ -17,5 +19,20 @@ jobs:
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header 'Accept: application/vnd.github.antiope-preview+json' \
           --header 'content-type: application/json' | jq --raw-output .[].filename | sed 's/^\|$/"/g'|paste -sd, -)
-          $files
+          echo "::set-env name=files::$files"
+          
+    - name: URLs-checker
+      uses: urlstechie/urlchecker-action@0.2.0
+      with:
+        # A comma-separated list of file types to cover in the URL checks
+        file_types: .md
+        save: "urls.csv"
+        files: ${{ env.files }}
+        
+    - name: Archive URL checking results
+      if: failure()
+      uses: actions/upload-artifact@v2-preview
+      with:
+        name: urlchecker-results
+        path: urls.csv
 
