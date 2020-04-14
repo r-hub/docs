@@ -22,5 +22,16 @@ jobs:
           echo "::set-env name=files::$files"
           
     - name: URLs-checker
-      run: |
-        echo ${{ env.files }}
+      uses: urlstechie/urlchecker-action@0.2.0
+      with:
+        save: "urls.csv"
+        files: ${{ env.files }}
+        
+    - name: Archive URL checking results
+      if: failure()
+      uses: actions/upload-artifact@v2-preview
+      with:
+        name: urlchecker-results
+        path: urls.csv
+
+
