@@ -1,8 +1,6 @@
 <div class="sidebar sidebar-{{ .Site.Params.sidebarColor}}">
     <div class="navigation">
-        {{ partial "logo.html" }}
-        
-
+        {{ partial "logo.html" . }}
 
         <nav class="internal">
             {{ partial "menu.html" . }}

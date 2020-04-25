@@ -65,3 +65,12 @@ weight = 20
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+    
+
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   

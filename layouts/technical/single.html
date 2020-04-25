@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section>
+    <h1>
+        {{ .Params.title }}
+    </h1>
+        {{ .Content }}
+</section>
+
+{{ partial "tail.html" . }}
+{{ end }}
