@@ -1,7 +1,4 @@
-{{ partial "head.html" . }}
-{{ partial "techsidebar.html" . }}
-
-<div class="content">
+{{ define "main" }}
     <section class="page" id="{{ .Params.anchor }}">
         <h1> Wanna use R-hub? </h1>
     <div class="content">
@@ -10,4 +7,4 @@
           </section>
     
 </div>
-{{ partial "tail.html" . }}
+{{ end }}

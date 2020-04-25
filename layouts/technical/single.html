@@ -1,12 +1,10 @@
-{{ partial "head.html" . }}
-{{ partial "techsidebar.html" . }}
+{{ define "main" }}
 <section>
     <h1>
-        <a>{{ .Title }}</a>
+        {{ .Params.title }}
     </h1>
-    <div class="content">
         {{ .Content }}
-    </div>
 </section>
 
 {{ partial "tail.html" . }}
+{{ end }}

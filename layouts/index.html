@@ -1,6 +1,4 @@
-{{ partial "head.html" . }}
-{{ partial "sidebar.html" . }}
-<div class="content">
+{{ define "main" }}
     {{ with .Sections }}
         {{ range .ByWeight }}
 
@@ -18,5 +16,4 @@
            {{ end }}
         {{ end }}
     {{ end }}
-</div>
-{{ partial "tail.html" . }}
+{{ end }}
