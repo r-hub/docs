@@ -1,0 +1,9 @@
+
+section code {
+  background-color: inherit;
+}
+
+pre {
+    border-radius: 5px;
+    padding: 0.6rem;
+}
