@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+{{ partial "techsidebar.html" . }}
+
+<div class="content">
+    <section class="page" id="{{ .Params.anchor }}">
+        <h1> Wanna use R-hub? </h1>
+    <div class="content">
+         For R-hub <em>user</em> docs refer to <a href="/">R-hub docs</a>.
+    </div>
+          </section>
+    
+    {{ range .Pages }}
+       {{ partial "techpage.html" . }}
+    {{ end }}
+</div>
+{{ partial "tail.html" . }}
