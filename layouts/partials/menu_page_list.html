@@ -1,0 +1,22 @@
+{{ if .Pages }}
+    <li>
+        <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
+        <ul>
+            {{ if .Sections }}
+                {{ range .Sections.ByWeight }}
+                    {{ partial "menu_page_list.html" . }}
+                {{ end }}
+            {{ end }}
+            {{ range .Pages.ByWeight }}
+            {{ if ne .Section "technical" }}
+                <li><a href="#{{ .Params.anchor }}">{{ .Title }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </li>
+{{ else }}
+    <li>
+        <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
+    </li>
+{{ end }}
+
