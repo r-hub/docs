@@ -4,15 +4,16 @@
     <a href="{{ .Site.BaseURL }}"><img src="/logo.png" alt="R-hub" width="150" /></a>
     <h1><a href="{{ .Site.BaseURL }}/technical"> Developer docs</a></h1>
 </div>
-        
+
 <nav class="internal"><ul>
-             {{ range ( .Paginate (where .Site.RegularPages "Section" "technical")).Pages }}
+             {{ range (where .Site.RegularPages "Section" "technical") }}
                 <li>
-                    <a href="/technical/#{{ .Params.anchor }}" >{{safeHTML .Title}}</a>
+                    <a href="{{ .Permalink }}" >{{safeHTML .Title}}</a>
                 </li>
                 {{ end }}</ul>
 
         </nav>
+
 
         <nav class="external">
             {{ with .Site.Menus.shortcuts }}
