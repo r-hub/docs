@@ -3,7 +3,12 @@
     <h1>
         {{ .Params.title }}
     </h1>
-        {{ .Content }}
+
+    <h3>Contents</h3>
+    
+    {{ .TableOfContents }}
+
+    {{ .Content }}
 </section>
 
 {{ partial "tail.html" . }}
