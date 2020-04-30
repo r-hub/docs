@@ -185,6 +185,11 @@ footer {
     box-shadow: 0px -5px 7.5px 0px rgba(150,150,150,0.4);
 }
 
+footer #logo a {
+    font-size: 22px;
+    margin-right: 50px;
+}
+
 footer a {
     color: #2854A0;
     text-decoration: none;
@@ -274,7 +279,7 @@ p.links-container {
 
 /* ----------------- */
 
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     footer {
         padding: 50px 50px;
     }
