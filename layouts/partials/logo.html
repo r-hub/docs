@@ -1,1 +1,9 @@
-<img src="/logo.png" alt="R-hub" width="150" />
+
+<div>
+    <img src="/logo.png" alt="R-hub" width="150" />
+    {{ if eq .Title .Site.Params.externalTitle }}
+    <h1><a href="{{ .Site.BaseURL }}"> Documentation</a></h1>
+    {{ else }}
+    <h1><a href="{{ .Site.BaseURL }}/technical"> Dev docs</a></h1>
+    {{ end }}
+</div>

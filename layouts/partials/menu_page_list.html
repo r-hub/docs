@@ -8,13 +8,15 @@
                 {{ end }}
             {{ end }}
             {{ range .Pages.ByWeight }}
-                <li><a href="{{.Site.BaseURL}}#{{ .Params.anchor }}">{{ .Title }}</a></li>
+            {{ if ne .Section "technical" }}
+                <li><a href="#{{ .Params.anchor }}">{{ .Title }}</a></li>
+                {{ end }}
             {{ end }}
         </ul>
     </li>
 {{ else }}
     <li>
-        <a href="{{.Site.BaseURL}}#{{ .Params.anchor }}">{{ .Title }}</a>
+        <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
     </li>
 {{ end }}
 

@@ -1,0 +1,16 @@
+<ul>
+{{ if eq .Title .Site.Params.externalTitle }}
+
+    {{ with .Sections }}
+        {{ range .ByWeight }}
+            {{ partial "menu_page_list.html" . }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+   {{ range (where .Site.RegularPages "Section" "technical") }}
+      <li>
+          <a href="{{ .Permalink }}" >{{safeHTML .Title}}</a>
+      </li>
+      {{ end }}
+{{ end }}
+</ul>

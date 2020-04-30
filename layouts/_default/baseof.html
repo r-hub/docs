@@ -1,0 +1,8 @@
+{{ partial "head.html" . }}
+{{ partial "sidebar.html" . }}
+<div class="content">
+ {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+</div>
+{{ partial "tail.html" . }}
