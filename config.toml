@@ -13,8 +13,8 @@ externalTitle = "R-hub Docs"
 description = "Documentation website for the R-hub project of the R Consortium, easing the R package development process."
 sidebarColor = "grey"
 customCss = ["custom.css"]
-editlink = "https://github.com/lockedata/docs"
-editBranch = "ImplementFeedback"
+editlink = "https://github.com/r-hub/docs"
+editBranch = "master"
 
 [[menu.shortcuts]]
 name = "fas fa-archive"
