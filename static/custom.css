@@ -140,11 +140,11 @@ section.page {
     border-bottom-color: #eeeeee;
 }
 
-section.page h1 a, section.page h1 a:visited  {
+section.page h1 a, section.page h1 a:visited, section.page a, section.page a:visited  {
   color: #2854A0 ;
 }
 
-section.page h1 a:active {
+section.page h1 a:active, section.page h1 a:hover, section.page a:active, section.page a:hover {
   text-decoration: none;
   color: #b0383c;
 }
