@@ -27,6 +27,12 @@
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+  <!-- -->
   <link rel="stylesheet" href='{{ "css/styles.css" | absURL }}'>
   <link rel="stylesheet" href='{{ "css/styles2.css" | absURL }}'>
   {{ range .Site.Params.customCss -}}
@@ -35,4 +41,4 @@
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc">

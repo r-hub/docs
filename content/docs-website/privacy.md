@@ -2,6 +2,7 @@
 title: "R-hub docs' privacy policy"
 date: 2018-01-28T21:55:52+01:00
 anchor: "privacy"
+level: 2
 weight: 2
 ---
 

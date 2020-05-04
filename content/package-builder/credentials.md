@@ -1,8 +1,8 @@
 ---
-title: "Secret API key, token, etc.?
-"
+title: "Secret API key, token, etc.?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "credentials"
+level: 2
 weight: 17
 ---
 

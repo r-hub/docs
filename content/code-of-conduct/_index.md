@@ -2,6 +2,7 @@
 title: "Code of Conduct"
 date: 2018-01-28T22:01:36+01:00
 anchor: "code-of-conduct"
+level: 1
 weight: 10000
 ---
 

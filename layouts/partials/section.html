@@ -1,8 +1,15 @@
 <section class="page" id="{{ .Params.anchor }}">
-    <h1>
+    {{ if eq .Params.level 1 }}
+    <h2>
         <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
         <a href="{{ .Site.Params.editlink }}/blob/{{ .Site.Params.editBranch }}/content/{{ path.Join .File.Path }}"><i class="fas fa-edit"></i></a>
-    </h1>
+    </h2>
+    {{ else }}
+    <h3>
+        <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
+        <a href="{{ .Site.Params.editlink }}/blob/{{ .Site.Params.editBranch }}/content/{{ path.Join .File.Path }}"><i class="fas fa-edit"></i></a>
+    </h3>
+    {{ end }}
     <div class="content">
         {{ .Content }}
     </div>

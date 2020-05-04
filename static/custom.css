@@ -60,6 +60,16 @@ body {
     margin: 1px 0 1px 0;
 }
 
+nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:focus, nav[data-toggle=toc] .nav-link.active:hover {
+    color: #2854A0;
+    border-left: 2px solid #2854A0;
+}
+
+nav[data-toggle=toc] .nav>li>a:hover {
+    color: #2854A0;
+    border-left: 1px solid #2854A0;
+}
+
 @media(max-width: 800px) {
     .sidebar .legal-container p {
         text-align: left;
