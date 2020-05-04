@@ -63,11 +63,17 @@ body {
 nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:focus, nav[data-toggle=toc] .nav-link.active:hover {
     color: #2854A0;
     border-left: 2px solid #2854A0;
+    font-size: 14px;
 }
 
 nav[data-toggle=toc] .nav>li>a:hover {
     color: #2854A0;
     border-left: 1px solid #2854A0;
+    font-size: 14px;
+}
+
+nav[data-toggle=toc] .nav>li>a, nav[data-toggle=toc] .nav .nav>li>a, nav[data-toggle=toc] .nav .nav>li>a:hover {
+    font-size: 14px;
 }
 
 @media(max-width: 800px) {
