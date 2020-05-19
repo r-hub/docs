@@ -2,6 +2,7 @@
 title: "How to reproduce a bug uncovered by R-hub?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "local-debugging"
+level: 2
 weight: 24
 
 ---

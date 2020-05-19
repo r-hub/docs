@@ -2,6 +2,7 @@
 title: "Local debugging with Docker"
 date: 2018-01-28T22:01:36+01:00
 anchor: "docker-images"
+level: 1
 weight: 200
 ---
 

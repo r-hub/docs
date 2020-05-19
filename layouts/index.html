@@ -1,3 +1,4 @@
+
 {{ define "main" }}
     {{ with .Sections }}
         {{ range .ByWeight }}
@@ -5,14 +6,14 @@
         {{ if ne .Title "R-hub dev docs" }}
             {{ partial "section_list.html" . }}
         {{ else }}
-        <section class="page" id="{{ .Params.anchor }}">
-        <h1>
-        <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
-    </h1>
-    <div class="content">
-         Refer to <a href="/technical">R-hub dev docs</a>.
-    </div>
-          </section>
+    <section class="page" id="{{ .Params.anchor }}">
+        <h2>
+            <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
+        </h2>
+        <div class="content">
+            Refer to <a href="/technical">R-hub dev docs</a>.
+        </div>
+    </section>
            {{ end }}
         {{ end }}
     {{ end }}

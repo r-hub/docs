@@ -2,6 +2,7 @@
 title: "Email validation, why and how?"
 date: 2018-01-28T21:55:52+01:00
 anchor: "email-validation"
+level: 2
 weight: 14
 ---
 

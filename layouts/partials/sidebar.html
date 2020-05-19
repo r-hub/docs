@@ -1,9 +1,14 @@
 <div class="sidebar sidebar-{{ .Site.Params.sidebarColor}}">
     <div class="navigation">
-        {{ partial "logo.html" . }}
+        <div>    
+            {{ partial "logo.html" }}
+        </div>
 
-        <nav class="internal">
+
+        <nav class="internal" id="toc" data-toggle="toc">
+            <!-- Replacing prebuilt menu with bootstrap one
             {{ partial "menu.html" . }}
+            -->
         </nav>
 
         <nav class="external">
@@ -16,11 +21,18 @@
             {{ end }}
         </nav>
     </div>
-    <div>
+    
+    <div class="legal-container">
+
+        <p>Funded by the <a href="https://www.r-consortium.org/"><img src="{{ "rc.png" | relURL }}" alt="Img link to R Consortium website" height="30"></a></p>
+        <p>Except where otherwise noted, content on this site is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</p>
+    </div>
+    
+    <!-- <div>
         <a href="https://www.r-consortium.org/" class="footer-links-kudos">Funded by the <img src="{{ "rc.png" | relURL }}" alt="Img link to R Consortium website" height="30"></a>
         </div>
         <div>Except where otherwise noted, content on this site is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>. 
-        </div>
+        </div> -->
     <div class="version">
             Website last generated on {{ now.Format "Jan 2, 2006" }}
     </div>

@@ -1,0 +1,336 @@
+/*----------------------------------------------------------------------------------------------------------------*/
+/*---custom override CSS by Oz Locke, Locke Data Ltd. Please contact oz@itsalocke.com if there are any problems---*/
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*---------------*/
+/* -- SIDEBAR -- */
+/*---------------*/
+body {
+    font-family: 'Muli', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #F3F3F3 ;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eeeeee;
+    color: #5c5c5c;
+    font-weight: 300;
+}
+
+.sidebar.sidebar-grey {
+  background-color: #F3F3F3;
+}
+
+.sidebar li {
+    margin-bottom: 3%;
+}
+
+.sidebar a {
+    color: #2854A0 ;
+}
+
+.sidebar a:visited {
+  color: #2854A0 ;
+}
+
+.sidebar a:hover, .sidebar a:focus, .sidebar a:active {
+    color: #B0383C ;
+}
+
+/* social links */
+.sidebar .fas, .sidebar .fab {
+    margin-right: 4%;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.sidebar .navigation {
+    flex: initial;
+}
+
+.sidebar .legal-container {
+    font-size: 0.75em;
+    margin: 10px 0 10px 0;
+}
+
+.sidebar .legal-container p {
+    margin: 1px 0 1px 0;
+}
+
+nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:focus, nav[data-toggle=toc] .nav-link.active:hover {
+    color: #2854A0;
+    border-left: 2px solid #2854A0;
+    font-size: 18px;
+}
+
+nav[data-toggle=toc] .nav>li>a:hover {
+    color: #2854A0;
+    border-left: 1px solid #2854A0;
+    font-size: 18px;
+}
+
+nav[data-toggle=toc] .nav>li>a, nav[data-toggle=toc] .nav .nav>li>a, nav[data-toggle=toc] .nav .nav>li>a:hover {
+    font-size: 18px;
+}
+
+@media(max-width: 800px) {
+    .sidebar .legal-container p {
+        text-align: left;
+    }
+
+    nav.internal ul li {
+        padding-left: 0;
+        color: red;
+    }
+
+    nav.internal ul li ul li {
+        margin-bottom: 0;
+    }
+
+    nav.internal ul li ul li a {
+        font-size: 0.75em ;
+    }
+}
+
+/*-----------------*/
+/* -- SCROLLBAR -- */
+/*-----------------*/
+
+/* 
+Code via: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar 
+Note: The -webkit-scrollbar is not supported by Firefox or IE and Edge.
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2854A0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B0383C; 
+  }
+
+/*---------------*/
+/* -- CONTENT -- */
+/*---------------*/
+
+.content {
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+.content h1 {
+    border-left-color: #2854A0 ;
+    border-left-width: 2px ;
+}
+
+.content a {
+    color: #2854A0 ;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.content a:hover, .content a:active, .content a:focus {
+    color: #b0383c;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+section.page {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #eeeeee;
+}
+
+section.page h1 a, section.page h1 a:visited, section.page a, section.page a:visited  {
+  color: #2854A0 ;
+}
+
+section.page h1 a:active, section.page h1 a:hover, section.page a:active, section.page a:hover {
+  text-decoration: none;
+  color: #b0383c;
+}
+
+section .fas, section .fab {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: .5em;
+    color: #919191;
+}
+
+section .fas:hover, section .fab:hover {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: .5em;
+    color: #4b4b4b;
+}
+
+/*------------*/
+/* --FOOTER-- */
+/*------------*/
+
+footer {
+    background-color: #f3f2f3;
+    margin: 0;
+    padding: 40px 0;
+    color: #2854A0;
+    text-align: left;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #eeeeee;
+    box-shadow: 0px -5px 7.5px 0px rgba(150,150,150,0.4);
+}
+
+footer #logo a {
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+footer a {
+    color: #2854A0;
+    text-decoration: none;
+}
+
+footer a:hover, a:active {
+    color: #B0383C;
+}
+
+/* -- Flex settings -- */
+#links-master-container {
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+footer .links-container, .legal-container {
+    /* background-color: red; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+footer .legal-container {
+    margin-left: 20px;
+    max-width: 20%;
+    color: #4b4b4b;
+}
+
+.legal-container img {
+    vertical-align: middle;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer .links-container a {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+/* #links-rhs-container {
+    background-color: green;
+} */
+
+footer #links-rhs-container .links-container {
+    /* background-color: blue; */
+    margin-right: 75px;
+}
+
+footer #links-rhs-container .links-container:last-of-type {
+    margin-right: 0;
+}
+
+p.links-container {
+    padding: 0 0;
+}
+
+#links-rhs-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+#terms-container {
+    /* background-color: pink; */
+    display: flex;
+    width: 25%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#terms-container p {
+    margin-block-start: 0;
+}
+
+/* ----------------- */
+
+@media(max-width: 900px) {
+    footer {
+        padding: 50px 50px;
+    }
+
+    #links-master-container, #links-rhs-container,  footer .legal-container, footer .links-container {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    footer #links-rhs-container .links-container {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    footer .links-container h3 {
+        /* background-color: aquamarine; */
+        margin-bottom: 0;
+        padding: 0.;
+    }
+
+    #links-rhs-container {
+        margin-bottom: 20px;
+    }
+
+    #terms-container {
+        width: 100%;
+    }
+
+    footer .legal-container {
+        margin-bottom: 20px;
+        color: #4b4b4b;
+    }
+}
+

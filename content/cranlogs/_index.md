@@ -2,6 +2,7 @@
 title: "Download counts of CRAN packages"
 date: 2018-01-28T22:01:36+01:00
 anchor: "cranlogs"
+level: 1
 weight: 550
 ---
 

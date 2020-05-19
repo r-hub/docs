@@ -1,4 +1,5 @@
-baseURL = "https://docs.r-hub.io/"
+# baseURL = "https://docs.r-hub.io/"
+baseURL = "https://relaxed-goldwasser-67adca.netlify.com/"
 languageCode = "en-us"
 googleAnalytics = "UA-141769052-1"
 
@@ -11,36 +12,38 @@ pygmentsStyle = "monokailight"
 [params]
 externalTitle = "R-hub Docs"
 description = "Documentation website for the R-hub project of the R Consortium, easing the R package development process."
-sidebarColor = "cyan"
-customCss = []
+sidebarColor = "grey"
+customCss = ["custom.css"]
+editlink = "https://github.com/r-hub/docs"
+editBranch = "master"
 
 [[menu.shortcuts]]
-name = "fa fa-archive"
+name = "fas fa-archive"
 url = "https://builder.r-hub.io/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "fa fa-github"
+name = "fab fa-github"
 url = "https://github.com/r-hub"
 weight = 20
 
 [[menu.shortcuts]]
-name = "fa fa-twitter"
+name = "fab fa-twitter"
 url = "https://twitter.com/rhub_/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "fa fa-comments"
+name = "fas fa-comments"
 url = "https://gitter.im/r-hub/community"
 weight = 20
 
 [[menu.shortcuts]]
-name = "fa fa-rss"
+name = "fas fa-rss"
 url = "https://blog.r-hub.io/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "fa fa-vimeo"
+name = "fab fa-vimeo-v"
 url = "https://vimeo.com/rhub"
 weight = 20
 
