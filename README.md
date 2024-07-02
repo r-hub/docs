@@ -6,6 +6,7 @@
 
 This is the source of the [documentation website of the R-hub project](https://docs.r-hub.io/).
 
-Contributions are welcome! In particular, do get in touch if you find something unclear, or wish a topic were added. By contributing to this project you agree to [its code of conduct](https://docs.r-hub.io/#code-of-conduct). Thank you!
+Contributions are welcome! 
+In particular, do get in touch if you find something unclear, or wish a topic were added. By contributing to this project you agree to [its code of conduct](https://docs.r-hub.io/#code-of-conduct). Thank you!
 
 _Except where otherwise noted, content on this site is licensed under the [CC-BY license](https://creativecommons.org/licenses/by/4.0/)._
