@@ -1,5 +1,4 @@
-# baseURL = "https://docs.r-hub.io/"
-baseURL = "https://relaxed-goldwasser-67adca.netlify.com/"
+baseURL = "https://docs.r-hub.io/"
 languageCode = "en-us"
 googleAnalytics = "UA-141769052-1"
 
