@@ -1,9 +1,3 @@
-[[redirects]]
-  from = "/*"
-  to = "https://r-hub.github.io/rhub/"
-  status = 301
-  force = true
-
 [build]
   publish = "public"
   command =  "hugo"
@@ -13,14 +7,44 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
+[[redirects]]
+  from = "/*"
+  to = "https://r-hub.github.io/rhub/"
+  status = 301
+  force = true
+
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.72.0"
+
+[[redirects]]
+  from = "/*"
+  to = "https://r-hub.github.io/rhub/"
+  status = 301
+  force = true
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.72.0"
 
+[[redirects]]
+  from = "/*"
+  to = "https://r-hub.github.io/rhub/"
+  status = 301
+  force = true
+
 [context.deploy-preview]
 command =  "hugo -b $DEPLOY_PRIME_URL"
 
+[[redirects]]
+  from = "/*"
+  to = "https://r-hub.github.io/rhub/"
+  status = 301
+  force = true
+
 [context.branch-deploy]
 command =  "hugo -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/*"
+  to = "https://r-hub.github.io/rhub/"
+  status = 301
+  force = true
